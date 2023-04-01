@@ -29,7 +29,7 @@ body {
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 .app {
@@ -226,16 +226,16 @@ body {
 @media (min-width: 1440px) {
 	body {
 		background-image: url('/dist/img/bg-desktop.png');
-		background-size: 100%;
+		background-size: 105%;
 		background-repeat: no-repeat;
-		background-position: 50% 100%;
+		background-position: 0% 100%;
 	}
 
 	.app {
 		.wrapper {
 			display: flex;
 			justify-content: center;
-			align-items: end;
+			align-items: flex-end;
 			gap: 2em;
 		}
 
