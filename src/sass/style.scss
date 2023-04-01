@@ -16,7 +16,7 @@ body {
 	background-color: $very-dark-blue;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
-	background-image: url('/dist/img/bg-mobile.png');
+	background-image: url('../img/bg-mobile.png');
 	background-size: cover;
 }
 
@@ -225,7 +225,7 @@ body {
 
 @media (min-width: 1440px) {
 	body {
-		background-image: url('/dist/img/bg-desktop.png');
+		background-image: url('../img/bg-desktop.png');
 		background-size: 105%;
 		background-repeat: no-repeat;
 		background-position: 0% 100%;
