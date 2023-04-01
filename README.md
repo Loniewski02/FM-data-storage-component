@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop.view.png)
+![](./desktop-view.png)
 ![](./mobile-view.png)
 
 ### Links
