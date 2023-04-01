@@ -16,8 +16,6 @@ body {
 	background-color: $very-dark-blue;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
-	background-image: url('../img/bg-mobile.png');
-	background-size: cover;
 }
 
 @mixin appStyles {
@@ -38,6 +36,8 @@ body {
 	align-items: center;
 	padding: 1.5em;
 	min-height: 100vh;
+	background-image: url('../img/bg-mobile.png');
+	background-size: cover;
 
 	&__top {
 		margin-bottom: 1em;
@@ -59,8 +59,8 @@ body {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			width: 4em;
-			height: 4em;
+			width: 3em;
+			height: 3em;
 			border: 2px solid $very-dark-blue;
 			background-color: $very-dark-blue;
 			border-radius: 1rem;
@@ -172,7 +172,7 @@ body {
 				align-items: center;
 				justify-content: center;
 				height: 100%;
-				font-size: 1.4rem;
+				font-size: 1.2rem;
 				text-transform: uppercase;
 				font-weight: bold;
 				color: $grayish-blue;
@@ -223,14 +223,11 @@ body {
 }
 
 @media (min-width: 1440px) {
-	body {
+	.app {
 		background-image: url('../img/bg-desktop.png');
-		background-size: 105%;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: 0% 100%;
-	}
-
-	.app {
 		.wrapper {
 			display: flex;
 			justify-content: center;
@@ -240,20 +237,21 @@ body {
 
 		&__top {
 			margin: 0;
-			max-width: 400px;
+			padding: 2.5em;
+			max-width: 350px;
 		}
 
 		&__bottom {
-			padding: 2.5em;
+			padding: 2em;
 			text-align: left;
-			max-width: 700px;
+			max-width: 550px;
 
 			&-minmax {
 				margin: 0;
 			}
 
 			&-range {
-				margin: 1em 0;
+				margin: 0.8em 0;
 				padding: 0.25em;
 				height: 2.5rem;
 
@@ -266,9 +264,11 @@ body {
 			}
 
 			&-storage-left {
-				right: 2.5em;
-				bottom: 90%;
+				right: 2em;
+				bottom: 85%;
 				transform: translate(0%, 0%);
+				width: 170px;
+				height: 70px;
 				border-bottom-right-radius: 0;
 
 				&::after {
@@ -278,9 +278,8 @@ body {
 					right: 0;
 					width: 0;
 					height: 0;
-					border-left: 25px solid transparent;
-
-					border-top: 25px solid #fff;
+					border-left: 20px solid transparent;
+					border-top: 20px solid #fff;
 				}
 			}
 		}
