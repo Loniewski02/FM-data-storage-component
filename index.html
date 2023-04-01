@@ -21,21 +21,22 @@
         <div class="app__top">
           <img class="app__top-logo" src="./dist/img/logo.svg" alt="">
           <div class="app__top-options">
-            <button class="app__top-btn">
+            <div class="app__top-option" tabindex="0">
               <img src="./dist/img/icon-document.svg" alt="">
-            </button>
-            <button class="app__top-btn">
+            </div>
+            <div class="app__top-option" tabindex="0">
               <img src="./dist/img/icon-folder.svg" alt="">
-            </button>
-            <button class="app__top-btn">
+            </div>
+            <div class="app__top-option" tabindex="0">
               <img src="./dist/img/icon-upload.svg" alt="">
-            </button>
+            </div>
           </div>
         </div>
         <div class="app__bottom">
-          <p class="app__bottom-info">You've used <span>815gb</span> of your storage</p>
+          <label for="data-range" class="app__bottom-info">You've used <span>815gb</span> of your storage</label>
+
           <div class="app__bottom-range">
-            <input type="range" value="815" min="0" max="1000">
+            <input id="data-range" type="range" value="815" min="0" max="1000">
           </div>
           <div class="app__bottom-minmax">
             <span>0 gb</span>
