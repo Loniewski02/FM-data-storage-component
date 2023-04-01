@@ -225,9 +225,9 @@ body {
 @media (min-width: 1440px) {
 	.app {
 		background-image: url('../img/bg-desktop.png');
-		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: 0% 100%;
+		background-size: 100% 50%;
 		.wrapper {
 			display: flex;
 			justify-content: center;
