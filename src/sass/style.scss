@@ -21,7 +21,7 @@ body {
 @mixin appStyles {
 	width: 100%;
 	background-color: $dark-blue;
-	border-radius: 1em;
+	border-radius: 1rem;
 }
 
 .wrapper {
@@ -43,7 +43,7 @@ body {
 		margin-bottom: 1em;
 		padding: 3em;
 		@include appStyles;
-		border-top-right-radius: 13rem;
+		border-top-right-radius: 10rem;
 
 		&-logo {
 			margin-bottom: 2em;
@@ -166,7 +166,7 @@ body {
 			height: 80px;
 			width: 190px;
 			background-color: #fff;
-			border-radius: 1em;
+			border-radius: 1rem;
 			p {
 				display: flex;
 				align-items: center;
@@ -238,7 +238,7 @@ body {
 		&__top {
 			margin: 0;
 			padding: 2.5em;
-			max-width: 350px;
+			max-width: 360px;
 		}
 
 		&__bottom {
