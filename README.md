@@ -62,23 +62,23 @@ input[type='range'] {
 	background-repeat: no-repeat;
 	cursor: pointer;     
 
-    &::-webkit-slider-thumb {
-				-webkit-appearance: none;
-				height: 1.1rem;
-				width: 1.1rem;
-				border-radius: 50%;
-				background: #fff;
-				cursor: ew-resize;
-			}
-
-	  &::-webkit-slider-runnable-track {
-			  -webkit-appearance: none;
-				box-shadow: none;
-				border: none;
-				background: transparent;
-				border-radius: 1rem;
-				width: auto;
-			}
+   	&::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		height: 1.1rem;
+		width: 1.1rem;
+		border-radius: 50%;
+		background: #fff;
+		cursor: ew-resize;
+	}
+	
+	&::-webkit-slider-runnable-track {
+		-webkit-appearance: none;
+		box-shadow: none;
+		border: none;
+		background: transparent;
+		border-radius: 1rem;
+		width: auto;
+	}
 }
 ```
 
