@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/Loniewski02/FM-data-storage-component)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/html-sass-js-data-storage-component-9A8gC_oxvU)
 - Live Site URL: [Live](https://loniewski02.github.io/FM-data-storage-component/)
 
 ## My process
